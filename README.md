@@ -1,0 +1,1 @@
+# Impledge_QA_Priyanshu-Pandey.postman_collection.json
