@@ -1,1 +1,4 @@
-# Impledge_QA_Priyanshu-Pandey.postman_collection.json
+Overview
+This task demonstrates how to interact with the Address Verification API, which verifies the validity of an address by sending a POST request with address details. The request should include the required address fields, such as company, street, city, country, phone, and email. A successful verification returns the address details, while an error response indicates that the address could not be found, often due to missing or incorrect address information.
+
+To use the API, send a POST request to https://api.easypost.com/v2/addresses with your address data and the verify_strict[] query parameter set to delivery. If the address is invalid or incomplete, the API returns a 422 error with the message "Address not found." Ensure that the address is correctly formatted, including all necessary fields, for accurate verification.
